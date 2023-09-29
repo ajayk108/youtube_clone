@@ -1,0 +1,96 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    /* background-color: red; */
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.sidenav{
+    /* background-color: blueviolet; */
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 60px;
+    left: 0;
+}
+.section{
+    width: calc(100% - 250px);
+    margin-left: 250px;
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 24px 32px;
+    box-sizing: border-box;
+}
+.col{
+    /* width: 380px; */
+    width: 23.5%;
+    margin-bottom: 32px;
+}
+.thumbnail{
+    border-radius: 18px;
+}
+.content{
+    display: flex;    
+    align-items: start;
+    column-gap: 18px;
+    margin-top: 8px;
+}
+.title{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    white-space: pre-wrap;
+
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.title{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.channel-name{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: gray;
+}
+.views{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    margin-right: 50px;
+}
+::-webkit-scrollbar-track{
+    background-color:white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #ccc;
+    border-radius: 5px;
+}
