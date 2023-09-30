@@ -3,17 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youtube Clone</title>
+    <title>YouTube Clone</title>
+    <link rel="icon"  href="assets/images/favicon/youtube.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,200,0,0" />
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
     <div class="header">
-
+        <div class="left">
+            <button class="menu-icon-btn">
+                <span class="material-symbols-outlined menu-icon">menu</span>
+            </button>  
+                <img src="assets/images/logo/youtube_logo.avif" width="110" alt=""> <span class="yt-in">IN</span>                
+        </div>
+        <div class="center">
+            <form class="search">
+                <input type="search" name="search" placeholder="Search">
+                <button><span class="material-symbols-outlined search-icon">search</span></button>
+            </form>     
+            <button class="search-mic">
+                <span class="material-symbols-outlined">mic</span>
+            </button>                       
+        </div>
+        <div class="right">
+                <button class="camera"> 
+                    <span class="material-symbols-outlined">video_call</span>
+                </button>
+                <button class="notification">
+                    <span class="material-symbols-outlined">notification_add</span>
+                </button>
+                <img class="user" src="assets/images/logo/logo (4).jpg" width="32" alt="">
+        </div>
     </div>
 
     <div class="sidenav">
+        <div class="container">
+            <div class="sidebar-menu" style="background-color: #f2f2f2;">
+                <span class="material-symbols-outlined sidebar-menu-icon">home</span>
+                Home
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">play_circle</span>
+                Shorts
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">subscriptions</span>
+                Subscriptions
+            </div>
+            
+            <hr width="90%" style="margin-top: 18px;" color="#f2f2f2">
 
+            <!-- ===================== Library ================================= -->
+
+            <div class="sidebar-menu-library">                
+                <span class="library-text">Library</span>
+                <span class="material-symbols-outlined sidebar-menu-icon-library">chevron_right</span>
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">account_box</span>
+                Your channel
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">history</span>
+                History
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">smart_display</span>
+                Your videos
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">schedule</span>
+                Watch later
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">expand_more</span>
+                Show more
+            </div>
+
+            <hr width="90%" style="margin-top: 18px;" color="#f2f2f2">
+
+            <!-- ================== subscriptoin ============================== -->
+
+            <div class="sidebar-menu-subscriptions">
+                <span class="subscriptions">Subscriptions</span>
+            </div>
+            <div class="sidebar-menu">
+                <img class="subscriptions-image" src="assets/images/logo/logo (2).jpg" alt="">
+                English speeches
+            </div>
+            <div class="sidebar-menu">
+                <img class="subscriptions-image" src="assets/images/logo/logo (3).jpg" alt="">
+                Wild wolf
+            </div>
+            <div class="sidebar-menu">
+                <img class="subscriptions-image" src="assets/images/logo/logo (4).jpg" alt="">
+                5 min craft
+            </div>
+            <div class="sidebar-menu">
+                <img class="subscriptions-image" src="assets/images/logo/logo (5).jpg" alt="">
+                A. j. Hoge
+            </div>
+            <div class="sidebar-menu">
+                <img class="subscriptions-image" src="assets/images/logo/logo (6).jpg" alt="">
+                Adam's English
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">expand_more</span>
+                Show more
+            </div>
+
+            <hr width="90%" style="margin-top: 18px;" color="#f2f2f2">
+
+
+            <!-- ===================== Explore ================================= -->
+
+            <div class="sidebar-menu-explore">
+                <span class="explore">Explore</span>
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">local_fire_department</span>
+               <span class="explore-text">Trending</span> 
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">shopping_bag</span>
+               <span class="explore-text">Shopping</span> 
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">music_note</span>
+               <span class="explore-text">Music</span> 
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">movie</span>
+               <span class="explore-text">Movies</span> 
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">sensors</span>
+               <span class="explore-text">Live</span> 
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">sports_esports</span>
+               <span class="explore-text">Gaming</span> 
+               
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">news</span>
+               <span class="explore-text">News</span> 
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">emoji_events</span>
+               <span class="explore-text">Sports</span> 
+               
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">emoji_objects</span>
+               <span class="explore-text">Learning</span> 
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">styler</span>
+               <span class="explore-text">Fashion & Beauty</span> 
+            </div>
+
+            <hr width="90%" style="margin-top: 18px;" color="#f2f2f2">
+
+            <!-- ====================== settings=======================    -->
+
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">settings</span>
+               <span class="explore-text">Setting</span> 
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">emoji_flags</span>
+               <span class="explore-text">Report history</span> 
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">help</span>
+               <span class="explore-text">Help</span> 
+            </div>
+            <div class="sidebar-menu">
+                <span class="material-symbols-outlined sidebar-menu-icon">rate_review</span>
+               <span class="explore-text">Send feedback</span> 
+            </div>
+
+            <hr width="90%" style="margin-top: 18px;" color="#f2f2f2">
+
+            <span class="copyright">&copy; 2023 Google LLC</span>
+
+        </div>
     </div>
+
 
     <div class="section">
         <!-- ================ videos ==========================-->
